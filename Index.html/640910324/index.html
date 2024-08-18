@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <ul>
+                <li><button onclick="showSection('home')">Home</button></li>
+                <li><button onclick="showSection('experience')">Experience</button></li>
+                <li><button onclick="showSection('projects')">Projects</button></li>
+                <li><button onclick="showSection('contact')">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content">
+            <h2>Home</h2>
+            <p>Hi, I'm Surawut Maneetham.</p>
+            <div class="profile-image">
+                <img src="d:\studies\P.4\เทอม 1\web dev\Index.html\640910324\126191.jpg" alt=" ">
+            </div>
+            <h3>จุดแข็ง</h3>
+            <ul>
+                <li>ทักษะการแก้ปัญหาเฉพาะหน้า</li>
+                <li>เรียนรู้กับงานได้เร็ว</li>
+                <li>ปรับตัวเข้าหากับผู้อื่นได้ดี</li>
+            </ul>
+            <h3>จุดอ่อน</h3>
+            <ul>
+                <li>ปฏิเสธคนได้ยาก</li>
+                <li>การนำเสนองานต่างๆ</li>
+            </ul>
+            <h3>ทักษะ</h3>
+            <ul>
+                <li>Programming Languages: JavaScript, Python, HTML/CSS</li>
+                <li>Photoshop</li>
+                <li>Tools: GitHub</li>
+            </ul>
+            <h3>Projects</h3>
+            <ul>
+                <li><button onclick="showSection('projects')">View Projects</button></li>
+            </ul>
+        </section>
+
+        <section id="experience" class="content">
+            <h2>Experience</h2>
+            <h3>Experience</h3>
+            <ul>
+                <li>
+                    <strong> เข้าร่วมค่ายนักอิเล็กทรอนิกส์ระดับเยาวชน (EC Shaped Camp)</strong> 
+                    <img src="d:\studies\P.4\เทอม 1\web dev\Index.html\640910324\120715882_3365879460170630_7186704124208465003_n.jpg" alt="EC Shaped Camp Image" class="experience-image">
+                </li>
+                <li>
+                    <strong>เข้าร่วมอบรมค่าย IOT</strong>
+                    
+                </li>
+            </ul>
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <strong>Silpakorn University</strong> (2019 - 2023)
+        
+                </li>
+                <li>
+                    <strong>piyachart pattana</strong> (2015 - 2019)
+                    <p>GPA:3.60</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="projects" class="content" style="display: none;">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>ได้ไปร่วมแข่งในรายการสมองกลฝังตัว Show and share 2020 ในปี พศ.2564</p>
+                <img src="d:\studies\P.4\เทอม 1\web dev\Index.html\640910324\Show _ Share 2020.jpg" alt="Project 1 Image" class="project-image">
+            </div>
+        </section>
+        
+
+        <section id="contact" class="content" style="display: none;">
+            <h2>Contact</h2>
+            <p>Email: maneetham_s@silpakorn.edu</p>
+            <p>FaceBook: <a href="https://www.facebook.com/surawut.maneetham/" target="_blank"> View Profile </a></p>
+            <p>IG: <a href="https://www.instagram.com/ssurawutmt/" target="_blank"> View Profile </a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Surawut Maneetham</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
